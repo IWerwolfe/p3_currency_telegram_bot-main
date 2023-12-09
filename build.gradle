@@ -21,15 +21,13 @@ java {
 	sourceCompatibility = '17'
 }
 
-
-
 repositories {
 	mavenCentral()
 }
 
 dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter'
-
+	implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
 	implementation "org.telegram:telegrambots:$telegrambotsVersion"
 	implementation "org.telegram:telegrambotsextensions:$telegrambotsVersion"
 
@@ -39,8 +37,7 @@ dependencies {
 	implementation group: 'javax.xml.bind', name: 'jaxb-api', version: jaxbApiVersion
 	implementation group: 'org.postgresql', name: 'postgresql', version: postgresqlDriverVersion
 	implementation group: 'org.springframework', name: 'spring-orm', version: springOrmVersion
-
-
+	implementation group: 'mysql', name: 'mysql-connector-java', version: '8.0.31'
 
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 
