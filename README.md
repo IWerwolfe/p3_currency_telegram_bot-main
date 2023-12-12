@@ -17,16 +17,16 @@
 ## Использование
 
 Поддерживаемые команды:
-  1. /get_price - получить текущую стоимость биткоина в USD
-  2. /subscribe XXXXX - подписаться на указанную стоимость биткоина
-  3. /get_subscription - информация о подписке
-  4. /unsubscribe - отменить подписку
+  - /get_price - получить текущую стоимость биткоина в USD
+  - /subscribe XXXXX - подписаться на указанную стоимость биткоина
+  - /get_subscription - информация о подписке
+  - /unsubscribe - отменить подписку
 
 ## разработка 
 
 Данный проект был создан в рамках практического задания от Skillbox
 в дальнейшем будет развиваться самостояльно
 
-Язык: Java 17
-Использовалось: Spring boot, Spring Framework, telegram bot API, lombok, postgree
-Система сборки проектов: gradle
+  - Язык: Java 17
+  - Использовалось: Spring boot, Spring Framework, telegram bot API, lombok, postgree
+  - Система сборки проектов: gradle
