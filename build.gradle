@@ -15,7 +15,7 @@ ext {
 }
 
 group = 'com.example'
-version = '0.0.1-SNAPSHOT'
+version = '0.0.3-SNAPSHOT'
 
 java {
 	sourceCompatibility = '17'
@@ -37,7 +37,6 @@ dependencies {
 	implementation group: 'javax.xml.bind', name: 'jaxb-api', version: jaxbApiVersion
 	implementation group: 'org.postgresql', name: 'postgresql', version: postgresqlDriverVersion
 	implementation group: 'org.springframework', name: 'spring-orm', version: springOrmVersion
-	implementation group: 'mysql', name: 'mysql-connector-java', version: '8.0.31'
 
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 

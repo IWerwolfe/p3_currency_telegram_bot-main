@@ -16,7 +16,7 @@ public interface SubscriberRepository extends CrudRepository<Subscriber, UUID> {
     @Query("""
             select s from Subscriber s
             where s.price is not null and s.price <= ?1 and (s.dateNotification is null or s.dateNotification < ?2)""")
-    List<Subscriber> findByPriceNotNullAndPriceGreaterThanEqualAndDateNotificationNullOrDateNotificationLessThan(Long price, LocalDateTime dateNotification);
+    List<Subscriber> findActiveSubscribers(Long price, LocalDateTime dateNotification);
 
     @Query("select s from Subscriber s where s.userId = ?1")
     Optional<Subscriber> findByUserId(Long userId);

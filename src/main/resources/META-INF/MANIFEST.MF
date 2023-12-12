@@ -1,46 +1,46 @@
 Manifest-Version: 1.0
 Main-Class: com.skillbox.cryptobot.CryptoBotApplication
-Class-Path: angus-activation-2.0.1.jar spring-orm-6.0.13.jar json-path-2
- .8.0.jar httpclient-4.5.13.jar junit-jupiter-engine-5.9.3.jar javax.act
- ivation-api-1.2.0.jar logback-classic-1.4.8.jar grizzly-http-4.0.0.jar 
- jaxb-runtime-4.0.3.jar spring-boot-3.1.5.jar aspectjweaver-1.9.20.jar g
- rizzly-http-server-4.0.0.jar mockito-core-5.3.1.jar hk2-api-3.0.4.jar c
- ommons-io-2.11.0.jar httpcore-4.4.16.jar HikariCP-5.0.1.jar jaxb-api-2.
- 3.1.jar spring-boot-starter-test-3.1.5.jar spring-boot-autoconfigure-3.
- 1.5.jar mockito-junit-jupiter-5.3.1.jar byte-buddy-1.14.9.jar spring-bo
- ot-test-3.1.5.jar mysql-connector-j-8.0.33.jar javassist-3.29.2-GA.jar 
- spring-boot-starter-jdbc-3.1.5.jar android-json-0.0.20131108.vaadin1.ja
- r jandex-3.1.2.jar commons-logging-1.2.jar jackson-databind-2.15.3.jar 
- grizzly-framework-4.0.0.jar spring-boot-starter-logging-3.1.5.jar teleg
- rambots-6.8.0.jar jersey-common-3.1.3.jar jackson-core-2.15.3.jar sprin
- g-aop-6.0.13.jar txw2-4.0.3.jar jakarta.activation-api-2.1.2.jar aopall
- iance-repackaged-3.0.4.jar classmate-1.5.1.jar opentest4j-1.2.0.jar hk2
- -locator-3.0.4.jar spring-data-commons-3.1.5.jar spring-boot-test-autoc
- onfigure-3.1.5.jar jackson-annotations-2.15.3.jar spring-data-jpa-3.1.5
- .jar istack-commons-runtime-4.1.2.jar xmlunit-core-2.9.1.jar jboss-logg
- ing-3.5.3.Final.jar junit-jupiter-api-5.9.3.jar jersey-server-3.1.3.jar
-  commons-codec-1.15.jar jersey-entity-filtering-3.1.3.jar jakarta.injec
- t-api-2.0.1.jar commons-lang3-3.12.0.jar jackson-module-jakarta-xmlbind
- -annotations-2.15.3.jar spring-jdbc-6.0.13.jar byte-buddy-agent-1.14.9.
- jar jakarta.persistence-api-3.1.0.jar spring-context-6.0.13.jar jackson
- -module-jaxb-annotations-2.15.3.jar checker-qual-3.31.0.jar jakarta.ws.
- rs-api-3.1.0.jar objenesis-3.3.jar jakarta.validation-api-3.0.2.jar jac
- kson-jaxrs-base-2.15.3.jar hamcrest-2.2.jar jakarta.annotation-api-2.1.
- 1.jar jackson-jaxrs-json-provider-2.15.3.jar junit-jupiter-params-5.9.3
- .jar hk2-utils-3.0.4.jar jsonassert-1.5.1.jar junit-platform-engine-1.9
- .3.jar spring-test-6.0.13.jar jersey-hk2-3.1.3.jar jul-to-slf4j-2.0.9.j
- ar hibernate-commons-annotations-6.0.6.Final.jar jakarta.xml.bind-api-4
- .0.1.jar hibernate-core-6.3.1.Final.jar jaxb-core-4.0.3.jar osgi-resour
- ce-locator-1.0.3.jar jakarta.transaction-api-2.0.1.jar asm-9.3.jar spri
- ng-boot-starter-data-jpa-3.1.5.jar slf4j-api-2.0.9.jar postgresql-42.6.
- 0.jar accessors-smart-2.4.11.jar telegrambotsextensions-6.8.0.jar jerse
- y-container-grizzly2-http-3.1.3.jar assertj-core-3.24.2.jar telegrambot
- s-meta-6.8.0.jar log4j-api-2.20.0.jar spring-boot-starter-3.1.5.jar sna
- keyaml-1.33.jar jackson-datatype-jsr310-2.15.3.jar spring-tx-6.0.13.jar
-  jersey-media-json-jackson-3.1.3.jar antlr4-runtime-4.10.1.jar junit-pl
- atform-commons-1.9.3.jar logback-core-1.4.8.jar httpmime-4.5.13.jar spr
- ing-beans-6.0.13.jar spring-boot-starter-aop-3.1.5.jar spring-aspects-6
- .0.13.jar jersey-client-3.1.3.jar spring-core-6.0.13.jar spring-express
- ion-6.0.13.jar log4j-to-slf4j-2.20.0.jar junit-jupiter-5.9.3.jar spring
- -jcl-6.0.13.jar json-smart-2.4.11.jar
+Class-Path: byte-buddy-agent-1.14.9.jar jackson-jaxrs-json-provider-2.15
+ .3.jar spring-boot-starter-test-3.1.5.jar spring-jdbc-6.0.13.jar jersey
+ -media-json-jackson-3.1.3.jar jackson-annotations-2.15.3.jar javax.acti
+ vation-api-1.2.0.jar aspectjweaver-1.9.20.jar android-json-0.0.20131108
+ .vaadin1.jar jakarta.validation-api-3.0.2.jar jersey-hk2-3.1.3.jar log4
+ j-to-slf4j-2.20.0.jar commons-logging-1.2.jar grizzly-framework-4.0.0.j
+ ar jakarta.activation-api-2.1.2.jar junit-jupiter-engine-5.9.3.jar logb
+ ack-core-1.4.8.jar httpmime-4.5.13.jar jaxb-core-4.0.3.jar accessors-sm
+ art-2.4.11.jar jaxb-api-2.3.1.jar log4j-api-2.20.0.jar grizzly-http-4.0
+ .0.jar hibernate-commons-annotations-6.0.6.Final.jar commons-codec-1.15
+ .jar assertj-core-3.24.2.jar jandex-3.1.2.jar jboss-logging-3.5.3.Final
+ .jar commons-lang3-3.12.0.jar jackson-datatype-jsr310-2.15.3.jar junit-
+ jupiter-params-5.9.3.jar spring-boot-3.1.5.jar mysql-connector-j-8.0.33
+ .jar json-path-2.8.0.jar asm-9.3.jar spring-aspects-6.0.13.jar spring-j
+ cl-6.0.13.jar jaxb-runtime-4.0.3.jar spring-beans-6.0.13.jar junit-jupi
+ ter-api-5.9.3.jar slf4j-api-2.0.9.jar jsonassert-1.5.1.jar postgresql-4
+ 2.6.0.jar classmate-1.5.1.jar snakeyaml-1.33.jar spring-boot-test-3.1.5
+ .jar antlr4-runtime-4.10.1.jar httpcore-4.4.16.jar json-smart-2.4.11.ja
+ r istack-commons-runtime-4.1.2.jar HikariCP-5.0.1.jar junit-platform-en
+ gine-1.9.3.jar hk2-utils-3.0.4.jar spring-boot-starter-aop-3.1.5.jar by
+ te-buddy-1.14.9.jar junit-jupiter-5.9.3.jar junit-platform-commons-1.9.
+ 3.jar spring-data-commons-3.1.5.jar jackson-module-jakarta-xmlbind-anno
+ tations-2.15.3.jar objenesis-3.3.jar spring-boot-starter-jdbc-3.1.5.jar
+  spring-boot-starter-3.1.5.jar spring-context-6.0.13.jar jersey-entity-
+ filtering-3.1.3.jar grizzly-http-server-4.0.0.jar spring-tx-6.0.13.jar 
+ telegrambotsextensions-6.8.0.jar spring-expression-6.0.13.jar jul-to-sl
+ f4j-2.0.9.jar xmlunit-core-2.9.1.jar spring-boot-starter-logging-3.1.5.
+ jar hk2-locator-3.0.4.jar telegrambots-meta-6.8.0.jar txw2-4.0.3.jar ja
+ ckson-jaxrs-base-2.15.3.jar hamcrest-2.2.jar jakarta.xml.bind-api-4.0.1
+ .jar opentest4j-1.2.0.jar hibernate-core-6.3.1.Final.jar javassist-3.29
+ .2-GA.jar httpclient-4.5.13.jar spring-boot-starter-data-jpa-3.1.5.jar 
+ jackson-core-2.15.3.jar jackson-module-jaxb-annotations-2.15.3.jar chec
+ ker-qual-3.31.0.jar jakarta.transaction-api-2.0.1.jar jersey-common-3.1
+ .3.jar commons-io-2.11.0.jar jersey-server-3.1.3.jar jersey-container-g
+ rizzly2-http-3.1.3.jar spring-test-6.0.13.jar mockito-core-5.3.1.jar lo
+ gback-classic-1.4.8.jar jakarta.ws.rs-api-3.1.0.jar jackson-databind-2.
+ 15.3.jar jakarta.inject-api-2.0.1.jar jakarta.annotation-api-2.1.1.jar 
+ telegrambots-6.8.0.jar spring-orm-6.0.13.jar spring-boot-test-autoconfi
+ gure-3.1.5.jar spring-aop-6.0.13.jar jakarta.persistence-api-3.1.0.jar 
+ spring-boot-autoconfigure-3.1.5.jar angus-activation-2.0.1.jar osgi-res
+ ource-locator-1.0.3.jar aopalliance-repackaged-3.0.4.jar spring-core-6.
+ 0.13.jar jersey-client-3.1.3.jar spring-data-jpa-3.1.5.jar hk2-api-3.0.
+ 4.jar mockito-junit-jupiter-5.3.1.jar
 

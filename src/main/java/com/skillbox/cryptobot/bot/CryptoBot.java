@@ -7,7 +7,6 @@ import org.telegram.telegrambots.extensions.bots.commandbot.TelegramLongPollingC
 import org.telegram.telegrambots.extensions.bots.commandbot.commands.IBotCommand;
 import org.telegram.telegrambots.meta.api.methods.send.SendMessage;
 import org.telegram.telegrambots.meta.api.objects.Update;
-import org.telegram.telegrambots.meta.exceptions.TelegramApiException;
 
 import java.util.List;
 
@@ -47,15 +46,12 @@ public class CryptoBot extends TelegramLongPollingCommandBot {
                  /unsubscribe - отменить подписку
                 """;
 
-        try {
-            SendMessage sendMessage = new SendMessage();
-            sendMessage.setText(text);
-            Long userId = update.getMessage().getChatId();
-            sendMessage.setChatId(userId);
-            execute(sendMessage);
+        Long userId = update.getMessage().getChatId();
 
-        } catch (TelegramApiException e) {
-            log.error("Ошибка возникла при отправке уведомления пользователю", e);
-        }
+        SendMessage sendMessage = new SendMessage();
+        sendMessage.setText(text);
+        sendMessage.setChatId(userId);
+
+        Sender.sendMessage(this, sendMessage, "nonCommand");
     }
 }
