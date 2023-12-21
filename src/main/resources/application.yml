@@ -1,15 +1,15 @@
 telegram:
   bot:
-    token: 6314315225:AAFOBtLAzdvce7yn0fm8_r19SqPpwNLx_eg
-    username: Crypto_123_Bot
+    token: 
+    username: 
 binance:
   api:
     getPrice: https://api.binance.com/api/v3/avgPrice?symbol=BTCUSDT
 spring:
   datasource:
-    username: root
-    password: root
-    url: jdbc:postgresql://localhost:5432/db?useSSL=false&requireSSL=false&allowPublicKeyRetrieval=true
+    username: 
+    password: 
+    url: 
   jpa:
     properties:
       hibernate:
