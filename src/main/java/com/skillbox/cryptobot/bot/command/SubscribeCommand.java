@@ -65,7 +65,9 @@ public class SubscribeCommand implements IBotCommand {
         subscriber.setPrice(sum);
 
         subscriberRepository.save(subscriber);
-        this.message = "Новая подписка создана на стоимость " + sum + " USD";
+        this.message = "Создана новая подписка на стоимость " + sum + " USD" + System.lineSeparator() + System.lineSeparator()
+        + "Когда цена достигнет данного значения вам будут приходить уведомления каждые 10 минут. " +
+                "Для отключения уведомлений выполните команду /unsubscribe";
     }
 
     private Long getSum(String[] arguments) {

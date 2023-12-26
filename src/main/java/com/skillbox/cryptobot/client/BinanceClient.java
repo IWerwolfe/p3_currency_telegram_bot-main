@@ -29,7 +29,7 @@ public class BinanceClient {
                 .build();
     }
     public double getBitcoinPrice() throws IOException {
-        log.info("Performing client call to binanceApi to get bitcoin price");
+//        log.info("Performing client call to binanceApi to get bitcoin price");
         try {
             return mapper.readTree(EntityUtils.toString(httpClient.execute(httpGet).getEntity()))
                     .path("price").asDouble();

@@ -6,9 +6,19 @@ plugins {
 	id "org.hibernate.orm" version "6.3.1.Final"
 }
 
+apply plugin: 'java'
+
+jar {
+	manifest {
+		attributes(
+				'Main-Class': 'com/skillbox/cryptobot/CryptoBotApplication.java'
+		)
+	}
+}
+
 ext {
 	telegrambotsVersion = '6.8.0'
-	logbackVersion = '1.4.8'
+	logbackVersion = '1.4.12'
 	jaxbApiVersion = '2.3.1'
 	postgresqlDriverVersion = '42.6.0'
 	springOrmVersion = '6.0.13'
@@ -27,6 +37,7 @@ repositories {
 
 dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter'
+	implementation 'org.springframework.boot:spring-boot-starter-logging'
 	implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
 	implementation "org.telegram:telegrambots:$telegrambotsVersion"
 	implementation "org.telegram:telegrambotsextensions:$telegrambotsVersion"
@@ -35,7 +46,7 @@ dependencies {
 	implementation "ch.qos.logback:logback-core:$logbackVersion"
 
 	implementation group: 'javax.xml.bind', name: 'jaxb-api', version: jaxbApiVersion
-	implementation group: 'org.postgresql', name: 'postgresql', version: postgresqlDriverVersion
+	implementation group: 'com.microsoft.sqlserver', name: 'mssql-jdbc', version: '11.2.3.jre17'
 	implementation group: 'org.springframework', name: 'spring-orm', version: springOrmVersion
 
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
